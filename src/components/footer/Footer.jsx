@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Footer() {
+
     return (
         <div className="h-screen">
 
@@ -15,7 +16,7 @@ function Footer() {
                         <div className="sm:columns-2">
                             <img
                                 className="sm:w-1/2 mb-10 sm:mb-0"
-                                src="https://www.imgacademy.com/sites/default/files/2009-stadium-about.jpg"
+                                src= "https://scontent.fgua2-1.fna.fbcdn.net/v/t39.30808-6/399407075_1800977167026108_6477426709711141627_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WXNf4iWmwi8Q7kNvgFxYchG&_nc_ht=scontent.fgua2-1.fna&oh=00_AYDU7UtuncdRDZ_dNM5suz0tb_pJMK3zqsZMEa1Y_CUArQ&oe=664BB14F"
                                 alt="About Me"
                             />
                             <div>
@@ -34,7 +35,7 @@ function Footer() {
                 {/* Services */}
                 <section id="services" className="sm:p-10 lg:p-20 p-5">
                     <div className="sm:container mx-auto">
-                        <h2 className="text-center text-4xl font-bold pt-10 sm:pt-0 pb-10">Servicios</h2>
+                        <h2 className="text-center text-4xl font-bold pt-10 sm:pt-0 pb-10">Mis Habilidades</h2>
                         <div className="sm:grid grid-cols-2">
                             {[
                                 { title: "Web Design", text: "As a dedicated web design professional, I bring a creative and strategic approach to crafting visually stunning and user-centric websites. With a keen eye for aesthetics and a commitment to delivering exceptional user experiences, my goal is to translate your brand identity into a captivating online presence." },

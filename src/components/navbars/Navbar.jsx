@@ -9,7 +9,7 @@ const NavLogo = () => {
                 className="nav-logo"
                 width='100%'
                 height='100%'
-                src= "https://static.vecteezy.com/system/resources/previews/003/682/252/non_2x/pink-blue-v-alphabet-letter-logo-icon-design-with-swoosh-for-business-and-company-vector.jpg"
+                src="https://static.vecteezy.com/system/resources/previews/003/682/252/non_2x/pink-blue-v-alphabet-letter-logo-icon-design-with-swoosh-for-business-and-company-vector.jpg"
                 alt="Logo"
             />
         </div>
@@ -18,7 +18,7 @@ const NavLogo = () => {
 
 const NavButton = ({ text, onClickHandler }) => {
     return (
-        <span className="nav-button" onClick={onClickHandler}>
+        <span className="nav-button text-white" onClick={onClickHandler}>
             {text}
         </span>
     )
@@ -50,7 +50,7 @@ export const Navbar = () => {
     }
 
     return (
-        <div className="bg-gray-800 p-4 flex justify-between items-center shadow-lg">
+        <div className="bg-indigo-900 p-8 flex justify-between items-center shadow-lg">
             <div className="flex items-center space-x-4">
                 <NavLogo />
                 <NavButton text='Mi blog Vaquin' onClickHandler={handleNavigateToHomePage} className="text-white hover:text-gray-300" />

@@ -87,7 +87,7 @@ export const NewPost = () => {
                 <div className='post-input-box'>
                     <Input
                         field='titulo'
-                        placeholder='Title'
+                        placeholder='Titulo'
                         className='post-input'
                         value={formState.titulo.value}
                         onChangeHandler={handleInputValueChange}
@@ -101,7 +101,7 @@ export const NewPost = () => {
                 <div className='post-input-box'>
                     <Input
                         field='categoria'
-                        placeholder='Category'
+                        placeholder='Categoria'
                         className='post-input'
                         value={formState.categoria.value}
                         onChangeHandler={handleInputValueChange}
@@ -115,7 +115,7 @@ export const NewPost = () => {
                 <div className='post-input-text-box'>
                     <Textarea
                         field='texto'
-                        placeholder='Body text'
+                        placeholder='Descripcion'
                         className='post-text'
                         value={formState.texto.value}
                         onChangeHandler={handleInputValueChange}
@@ -126,6 +126,8 @@ export const NewPost = () => {
                     />
                     <i class="fa-solid fa-comment"></i>
                 </div>
+
+
                 <button onClick={handleNewPost} disabled={isSubmitButtonDisable}>
                     Post
                 </button>
