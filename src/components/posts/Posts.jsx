@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { PostCard } from "./PostCard";
 import Footer from "../footer/Footer";
 import Slider from "../navbars/Slider";
+import UserView from "../userView/UserView";
 
 export const Posts = ({ posts }) => {
   const navigate = useNavigate()
@@ -30,6 +31,7 @@ export const Posts = ({ posts }) => {
 
   return (
     <>
+      <UserView></UserView>
       <div className="bg-gray-100 p-6">
         <div className="max-w-7xl mx-auto">
           <span className="block text-2xl font-bold text-gray-800 mb-6">Mis proyectos:</span>

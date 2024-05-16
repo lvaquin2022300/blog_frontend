@@ -1,4 +1,3 @@
-import logo from '../assets/logo2.png'
 
 export const Logo = ({ text }) => {
     return (
