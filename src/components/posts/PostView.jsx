@@ -103,7 +103,7 @@ export const PostView = ({ getPosts }) => {
                 </div>
                 <div className="message-description-box">
                     
-                    <span className="message-title">Comments:</span>
+                    <span className="message-title">Comentarios:</span>
                     {postDetails.data.post.comentarios.length === 0 && comments.length === 0 && <p>No hay comentarios aún</p>}
                     {postDetails.data.post.comentarios.map((comentario, index) => (
                         <MessageDescription

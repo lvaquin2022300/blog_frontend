@@ -82,7 +82,7 @@ export const NewPost = () => {
     return (
 
         <div className='new-post-container'>
-            <span className='new-post-title'>New Post</span>
+            <span className='new-post-title'>Agregar proyecto</span>
             <form className='new-post-form'>
                 <div className='post-input-box'>
                     <Input

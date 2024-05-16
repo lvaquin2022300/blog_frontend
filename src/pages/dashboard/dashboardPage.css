@@ -1,7 +1,7 @@
-.dashboard-container {
+/*.dashboard-container {
     width: 100%;
     height: 100%;
-}
+}*/
 
 .title-posts{
     padding-top: 20px;
@@ -67,18 +67,14 @@
     margin-right: 10px;
 }
 
-.content-container {
-    margin-left: 200px;
-    padding-bottom: 40px;
-}
 
-.posts-container {
+/*.posts-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 50px;
     width: 100%;
     padding-bottom: 30px;
-}
+}*/
 
 .post-card {
     margin-top: 40px;
