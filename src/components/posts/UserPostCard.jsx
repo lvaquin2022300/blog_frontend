@@ -32,31 +32,29 @@ export const UserPostCard = ({
     }
 
     return (
-        <div className="user-post">
-            <div className="buttons-box">
-                <button className="btn-editar" onClick={handleEdit}>
-                    Edit
-                    <i className="fa-solid fa-pen"></i>
-                </button>
-                <button className="btn-eliminar" onClick={handleDelete}>
-                    Delete
-                    <i className="fa-solid fa-trash-can"></i>
-                </button>
-            </div>
-            <div className="post-card" onClick={handleNavigate}>
-                <span className="post-card-title">{titulo}</span>
-                <div className="post-box">
-                    <div className="text-box">
-                        <i className="fa-solid fa-user"></i>
-                        <span className="post-card-text">{usuario}</span>
-                    </div>
-                    <div className="text-box">
-                        <i className="fa-solid fa-layer-group"></i>
-                        <span className="post-card-text">{categoria}</span>
-                    </div>
+        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+            <div className="px-6 py-4">
+                <div className="font-bold text-xl mb-2">{titulo}</div>
+                <p className="text-gray-700 text-base mb-2">{texto}</p>
+                <div className="flex items-center">
+                    <i className="mr-1 fas fa-user"></i>
+                    <p className="text-gray-600 text-sm">{usuario}</p>
                 </div>
-                <span className="post-card-subtitle">{texto}</span>
+                <div className="flex items-center mt-2">
+                    <i className="mr-1 fas fa-layer-group"></i>
+                    <p className="text-gray-600 text-sm">{categoria}</p>
+                </div>
+            </div>
+            <div className="px-6 py-4">
+                <button className="mr-2 text-blue-500 hover:text-blue-700 focus:outline-none" onClick={handleEdit}>
+                    <i className="mr-1 fas fa-pencil-alt"></i>Editar
+                </button>
+                <button className="text-red-500 hover:text-red-700 focus:outline-none" onClick={handleDelete}>
+                    <i className="mr-1 fas fa-trash-alt"></i>Eliminar
+                </button>
             </div>
         </div>
-    )
+    );
+    
+
 }

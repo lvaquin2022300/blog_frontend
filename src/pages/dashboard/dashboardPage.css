@@ -11,20 +11,7 @@
     margin-bottom: -50px;
 }
 
-.nav-container {
-    position: fixed;
-    width: 200px;
-    height: 100%;
-    box-sizing: border-box;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    left: 0;
-    top: 0;
-    overflow-y: auto;
-}
+
 
 .nav-logo-container {
     width: 70px;
@@ -62,10 +49,7 @@
     font-size: 30px;
 }
 
-.sidebar i{
-    margin-left: 20px;
-    margin-right: 10px;
-}
+
 
 
 /*.posts-container {
@@ -232,11 +216,7 @@
     flex-direction: column;
 }
 
-.post-video-container {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 
 .post-description{
     padding-left: 10px;

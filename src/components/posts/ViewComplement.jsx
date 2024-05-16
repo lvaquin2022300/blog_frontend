@@ -23,12 +23,13 @@ function ViewComplement() {
                 </div>
             </div>
 
-            <div className="text-center space-x-4 mt-6">
-                <button className="bg-[#8B5CF6] translate-y-1 text-[#fff] sm:text-lg text-xs font-bold py-2.5 px-6 rounded-full inline-flex items-center">
 
-                    &nbsp; &nbsp;<span> VER CODIGO </span>
+            <a href="https://github.com/lvaquin2022300/Sistema_Adopcion.git"><div className="text-center space-x-4 mt-6">
+                <button className="bg-[#8B5CF6] translate-y-1 text-[#fff] sm:text-lg text-xs font-bold py-2.5 px-6 rounded-full inline-flex items-center" >
+                    &nbsp; &nbsp; <span> VER CODIGO </span>
                 </button>
-            </div>
+            </div></a>
+
         </section>
     );
 }
