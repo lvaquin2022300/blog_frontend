@@ -3,7 +3,7 @@
     height: 100%;
 }*/
 
-.title-posts{
+.title-posts {
     padding-top: 20px;
     padding-left: 10%;
     font-weight: 600;
@@ -14,9 +14,10 @@
 
 
 .nav-logo-container {
-    width: 70px;
-    height: 40px;
+    width: 90px;
+    height: 60px;
 }
+
 
 .logo-box {
     display: flex;
@@ -143,7 +144,7 @@
     font-size: 16px;
 }
 
-.buttons-box{
+.buttons-box {
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -154,7 +155,7 @@
     margin-top: 30px;
 }
 
-.buttons-box i{
+.buttons-box i {
     margin-left: 10px;
 }
 
@@ -164,22 +165,22 @@
     align-items: center;
 }
 
-.user-post .post-card{
+.user-post .post-card {
     margin-left: 0;
 }
 
-.buttons-box button{
+.buttons-box button {
     margin-top: -10px;
     width: 300px;
 }
 
-.btn-editar:hover{
+.btn-editar:hover {
     background-color: #ffc800;
     border: #b89600;
     color: #fff;
 }
 
-.btn-eliminar:hover{
+.btn-eliminar:hover {
     background-color: #e60a0a;
     border: #9a0909;
     color: #fff;
@@ -218,11 +219,11 @@
 
 
 
-.post-description{
+.post-description {
     padding-left: 10px;
 }
 
-.post-description-body{
+.post-description-body {
     padding-left: 10px;
     font-size: 20px;
 }
@@ -379,7 +380,7 @@
     }
 }
 
-.new-post-title{
+.new-post-title {
     font-size: 30px;
     font-weight: 700;
 }
@@ -439,8 +440,8 @@
     border-color: #4CAF50;
 }
 
-.post-input:focus + i,
-.post-text:focus + i {
+.post-input:focus+i,
+.post-text:focus+i {
     color: #4CAF50;
 }
 

@@ -12,7 +12,7 @@ export const UsersPosts = ({ posts }) => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <span className="text-xl font-bold col-span-full">Tus posts:</span>
+      <span className="text-xl font-bold col-span-full">MIS POST</span>
       {Array.isArray(posts.posts) && posts.posts.map((p) => (
         <div key={p._id} className="my-4">
           <div className="bg-white shadow-md rounded-md">
